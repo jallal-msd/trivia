@@ -36,7 +36,7 @@
     <div class=" w-screen h-96  ">
         <div class="flex flex-row justify-around h-96   px-3 items-center space-x-5">
         
-            {#if level ==  0}
+            {#if level >=  len}
                 <div class="container item-center justify-center ">
                     <h1 class="text-3xl text-center text-purple-600">You win!!</h1>       
                     <h2 class="text-xl text-center p-3"><a href="https://www.youtube.com/watch?v=TaP3EK99Pfs">Click me</a></h2>
