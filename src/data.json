@@ -1,41 +1,99 @@
 [
-    [
+         {
+          "answer":"limecult",
+          "img":"/images/answers/cult.webp",
+          "choices":{
+            "ch1":"/images/choices/cult/1.webp",
+            "ch2":"/images/choices/cult/2.webp",
+            "ch3":"/images/choices/cult/3.webp"
+          }
+        },
+         {
+          "answer":"alcoholic",
+          "img":"/images/answers/alcoholic.webp",
+          "choices":{
+            "ch1":"/images/choices/alcoholic/1.webp",
+            "ch2":"/images/choices/alcoholic/2.webp",
+            "ch3":"/images/choices/alcoholic/3.jpeg"
+          }
+        },
+         {
+          "answer":"eric",
+          "img":"/images/answers/eric.webp",
+          "choices":{
+            "ch1":"/images/choices/eric/1.webp",
+            "ch2":"/images/choices/eric/2.webp",
+            "ch3":"/images/choices/eric/3.webp"
+          }
+        },
+         {
+          "answer":"huell",
+          "img":"/images/answers/huell.webp",
+          "choices":{
+            "ch1":"/images/choices/huell/1.jpeg",
+            "ch2":"/images/choices/huell/2.webp",
+            "ch3":"/images/choices/huell/3.jpg"
+          }
+        },
+         {
+          "answer":"jackass",
+          "img":"/images/answers/jackass.webp",
+          "choices":{
+            "ch1":"/images/choices/jackass/1.jpeg",
+            "ch2":"/images/choices/jackass/2.webp",
+            "ch3":"/images/choices/jackass/3.webp"
+          }
+        },
         {
-    "id":1, 
-    "src":" https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340",
-    "age":15
-},
-{
-    "id":2,
-    "src":" https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340",
-    "age":15
-},
-{
-    "id":3,
-    "src":" https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340",
-    "age":15
-}
+          "answer":"lemon",
+          "img":"/images/answers/lemon.webp",
+          "choices":{
+            "ch1":"/images/choices/lemon/1.webp",
+            "ch2":"/images/choices/lemon/2.webp",
+            "ch3":"/images/choices/lemon/1.jpeg"
+          }
 
-    ],
-    [
-     {
-    "id":1, 
-    "src":"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
-    "age":15
-},
-{
-    
-    "id":2, 
-    "src":"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
-    "age":15
+        },
+        {
+          "answer":"texime",
+          "img":"/images/answers/texime.webp",
+          "choices":{
+            "ch1":"/images/choices/texime/1.svg",
+            "ch2":"/images/choices/texime/2.webp",
+            "ch3":"/images/choices/texime/3.jpeg"
+          }
+        
+        },
+        {
+          "answer":"airwik",
+          "img":"/images/answers/airwik.webp",
+          "choices":{
+            "ch1":"/images/choices/airwik/1.jpg",
+            "ch2":"/images/choices/airwik/2.jpg",
+            "ch3":"/images/choices/airwik/3.jpg"
+          }
+        },
+        {
+          "answer":"regret",
+          "img":"/images/answers/regret.webp",
+          "choices":{
+            "ch1":"/images/choices/regret/1.jpg",
+            "ch2":"/images/choices/regret/2.webp",
+            "ch3":"/images/choices/regret/3.jpg"
+          }
+        },
+          {
+          "answer":"swag",
+          "img":"/images/answers/swag.webp",
+          "choices":{
+            "ch1":"images/choices/swag/1.jpeg",
+            "ch2":"images/choices/swag/2.webp",
+            "ch3":"images/choices/swag/3.webp"
+          }
 
-},
-{
+        }
+       
 
-    "id":3, 
-    "src":"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
-    "age":15
-}
-
-    ]
 ]
+
+
