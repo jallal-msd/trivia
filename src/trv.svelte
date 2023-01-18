@@ -13,7 +13,7 @@
 
                 console.log(Data[level].answer)
                 console.log(sbmt.trim().toLowerCase())
-            if (sbmt.trim().toLowerCase() === Data[level].answer){
+            if (sbmt.trim().toLowerCase() === Data[level].answer || attemps == 5){
                 console.log("winner")
                 attemps=0;
                 answer = Data[level].img;
@@ -25,12 +25,14 @@
             sbmt=" "
             console.log("try again")
     }
+
     let answer = "images/emoney.png"
      
 </script>
 
 <div class="container mx-auto  w-screen h-screen flex flex-col space-y-5 justify-center items-center" >
-<div class="container flex items-center justify-center">
+<div class="container text-red-600 flex flex-col p-3 space-y-5  items-center justify-center">
+    <h1 class="text-xl italic">attemps left : {5-attemps}</h1>
     <img src="{answer}" alt="">
 </div>
     <div class=" w-screen h-96  ">
@@ -42,6 +44,7 @@
                     <h2 class="text-xl text-center p-3"><a href="https://www.youtube.com/watch?v=TaP3EK99Pfs">Click me</a></h2>
                 </div>
             {:else}            
+                
                 <div class="p-3  border-4 rounded-xl border-emerald-600  w-1/3 h-72">
                     {#if attemps >= 0}
                         <img src="{Data[level].choices.ch1}" alt="" class="w-full h-full ">
@@ -63,8 +66,8 @@
         </div> 
         </div> 
     <div class="container  flex justify-center  items-center">
-        <input  on:keypress={onKeyPress} class="border border-2 border-emerald-600 text-center p-1 rounded-md"  type="text" bind:value="{sbmt}" >
-        <button on:input={attemp} class="px-3" >
+        <input  on:keypress={onKeyPress}  class="border border-2 border-emerald-600 text-center p-1 rounded-md"  type="text" bind:value="{sbmt}" >
+        <button on:click={attemp}  class="px-3" >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
              <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
