@@ -65,12 +65,12 @@
         
         },
         {
-          "answer":"airwik",
-          "img":"images/answers/airwik.webp",
+          "answer":"airwick",
+          "img":"images/answers/airwick.webp",
           "choices":{
-            "ch1":"images/choices/airwik/1.jpg",
-            "ch2":"images/choices/airwik/2.jpg",
-            "ch3":"images/choices/airwik/3.jpg"
+            "ch1":"images/choices/airwick/1.jpg",
+            "ch2":"images/choices/airwick/2.jpg",
+            "ch3":"images/choices/airwick/3.jpg"
           }
         },
         {
