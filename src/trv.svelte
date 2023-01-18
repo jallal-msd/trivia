@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Data from "./data.json"
+    import Data from "./assets/data.json"
     $: len = Object.keys(Data).length
     let sbmt = ' ';
     let attemps = 0;
